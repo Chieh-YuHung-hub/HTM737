@@ -1,6 +1,19 @@
 --Today we learned how to create tables in SQL.
---We learned about different types of variables.
+--Professor Omar introduced the characteristics of SQL.
+--SQL can deal with huge amounts of data and allow tables to be updated without having back and forth file sharing.
+--There are many database products dervived from SQL.
+--BigQuery is the one that most people use because of the lower cost.
+--We learned about different types of variables in SQL.
+--There are types for storing text, numbers, and date.
+--VARCHAR and CHAR are data types for storing text.
+--VARCHAR: very common, usually have certain limit of characters.
+--CHAR: fixed number of characters.
+--A primary key is a column used to uniquely identify each record in a table.
 --We used SQLiteOnline.com
+--We learned how to insert tables and query the tables in SQLiteOnline using a SELECT statement.
+--In SQLiteOnline, to display a whole table we use the command SELECT * FROM table_name;.
+--When we just want to display some specific columns or rows, we use the command SELECT target_fields or rows FROM table_name WHERE target_fields = target_values;.
+
 DROP TABLE IF EXISTS PATIENT;
 CREATE TABLE PATIENT(
 	Pid			VARCHAR(30)			NOT NULL,
