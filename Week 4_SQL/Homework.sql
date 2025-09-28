@@ -12,7 +12,15 @@
 --We used SQLiteOnline.com
 --We learned how to insert tables and query the tables in SQLiteOnline using a SELECT statement.
 --In SQLiteOnline, to display a whole table we use the command SELECT * FROM table_name;.
---When we just want to display some specific columns or rows, we use the command SELECT target_fields or rows FROM table_name WHERE target_fields = target_values;.
+--When we just want to display some specific columns or rows, we use the command SELECT target_colun_fields or rows FROM table_name WHERE target_row_fields = target_values;.
+--Column choice comes after “select”.
+--Row choice comes after “where".
+--We also learned several common abbreviations used in medical tables.
+--Before the end of the class, we created an account on GitHub.com and typed what we learned from our first SQL class.
+--To be honest, my first SQL class was really fun.
+--I was surprised that I didn't feel panic about learning SQL.
+--I am looking forward to learning more functions of SQL!
+
 
 DROP TABLE IF EXISTS PATIENT;
 CREATE TABLE PATIENT(
